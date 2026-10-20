@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F401RE",
+            "includePath": [
+                "${workspaceFolder}/common",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+            ],
+            "defines": ["STM32F401xE"],
+            "compilerPath": "/Applications/ArmGNUToolchain/15.3.rel2/arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
