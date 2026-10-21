@@ -13,7 +13,7 @@ LDFLAGS = -nostdlib -Wl,--gc-sections
 
 # Every .c / .S file in these folders is compiled automatically.
 COMMON_SRC = $(wildcard common/*.c common/*.S)
-BOOT_SRC   = $(wildcard bootloader/*.c bootloader/*.S) $(COMMON_SRC)
+BOOT_SRC = bootloader/main.c $(COMMON_SRC)
 APP_SRC    = $(wildcard application/*.c application/*.S) $(COMMON_SRC)
 HEADERS    = $(wildcard common/*.h bootloader/*.h application/*.h)
 
